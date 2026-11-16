@@ -1,6 +1,19 @@
-# DaGrim v0.0.1
+# DaGrim
 
 Windows용 C / Win32 그림·사진 편집기입니다.
+
+## 설치 및 제거
+
+`DaGrimSetup.exe`를 실행하고 Windows UAC 관리자 권한 요청을 승인하세요.
+`Program Files\DaGrim`에 모든 사용자용으로 설치하며 시작 메뉴에 바로가기를 만듭니다.
+설치 후 일반 DaGrim 실행에는 관리자 권한이 필요하지 않습니다.
+업데이트할 때는 실행 중인 DaGrim을 종료하고 새 설치 파일을 실행하세요.
+
+제거는 Windows 설정의 **앱 → 설치된 앱 → DaGrim → 제거** 또는
+설치 폴더의 `DaGrimSetup.exe /uninstall`로 진행합니다. 제거에도 관리자 권한이 필요합니다.
+사용자가 만든 문서와 설치 폴더에 추가한 파일은 보존합니다.
+기존 단독 실행 파일도 계속 사용할 수 있습니다.
+빌드하면 `build\DaGrimSetup.exe`가 함께 생성됩니다.
 
 ## 주요 기능
 
